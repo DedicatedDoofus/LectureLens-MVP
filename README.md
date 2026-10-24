@@ -56,27 +56,7 @@ streamlit run app.py
 
 If no key is configured, the app automatically uses a deterministic local demo mode. The built-in sample is designed so the live presentation can still show the full user flow.
 
-## 5. Recommended live-demo script
-
-1. Open LectureLens and point out that it is designed for instructors, not student surveillance.
-2. Leave the built-in Java arrays transcript selected and click **Analyze lecture**.
-3. Show that the output is not just a generic paragraph: it has category scores, timestamps, evidence, confidence, and a concrete example question.
-4. Point to the recommendation about replacing “Does that make sense?” with “What value will `scores[1]` contain, and why?”
-5. Change the sidebar focus to **Questioning** and run the analysis again to show a focused view.
-6. Paste a short custom transcript and run it to demonstrate that the interface accepts new evidence.
-7. Open the prompt-engineering expander and identify the persona, few-shot, and iterative-refinement patterns.
-
-## 6. Presentation outline
-
-1. **Problem:** Online teachers need actionable feedback, not only attendance data.
-2. **Solution:** LectureLens converts lecture evidence into practical coaching.
-3. **User flow:** Add transcript → choose focus → analyze → review evidence and actions.
-4. **AI design:** Persona/constraints, few-shot example, iterative refinement, and structured output.
-5. **Live demo:** Use the sample Java arrays transcript.
-6. **Value:** Saves review time and creates specific next-lesson experiments.
-7. **Limitations and future work:** Add speech-to-text, speaker diarization, audio/video upload, instructor history, student privacy controls, and evaluation with expert teacher ratings.
-
-## 7. Technical architecture
+## 5. Technical architecture
 
 ```text
 Streamlit UI
