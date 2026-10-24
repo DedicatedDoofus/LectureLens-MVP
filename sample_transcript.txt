@@ -1,0 +1,14 @@
+[00:00] Instructor: Today we are going to review Java arrays and how indexing works.
+[00:18] Instructor: Give me one second while I share the correct screen. I opened the wrong window.
+[00:52] Instructor: Okay, arrays store multiple values of the same type. For example, int[] scores = {80, 90, 75}.
+[01:34] Instructor: The first item is at index zero. Does that make sense?
+[01:48] Student: I think so, but I am not sure why the first index is not one.
+[02:02] Instructor: Right, computers count offsets from zero. So scores[0] gives us 80.
+[02:26] Instructor: What do you think scores[1] will return?
+[02:39] Student: 90.
+[02:44] Instructor: Exactly. Now change the example so that it stores four scores.
+[03:10] Student: I am trying, but I am getting an error.
+[03:22] Instructor: Let us look at it together. You used scores[4], but the valid indexes stop at 3.
+[04:06] Instructor: Any questions before we move on? ... Okay, let us continue with the for loop.
+[04:38] Instructor: A for loop is useful when we want to visit every element in the array.
+[05:15] Instructor: Does that make sense? Great. I will show the completed code now.
